@@ -51,7 +51,7 @@ body {
 }
 
 .questionsList .question {
-    background: #c52727a4;
+    background: var(--purple);
     margin: 0.5rem 0;
     padding: 0.5rem 0.5rem;
     box-sizing: border-box;
@@ -77,36 +77,19 @@ body {
     display: none;
 }
 
-.dashboard {
-    display: flex;
-    width: 20rem;
-    height: 20rem;
-    justify-content: center;
-    align-items: center;
-    clip-path: circle();
-    background: linear-gradient(to right,red 50%, green 50%);
-    margin: 0 auto;
-}
-
-.dashboard .dcenter {
-    display: block;
-    width: 10rem;
-    height: 10rem;
-    clip-path: circle();
-    background: var(--white);
-}
-
 .porcentagemRespostas {
     display: flex;
     width: 20rem;
+    height: 13rem;
     margin: 0 auto;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 .acertos, .erros {
     display: flex;
     width: 1.5rem;
-    height: 1.5rem;
+/*     height: 50%; */
     background: green;
     text-indent: 2rem;
     align-items: center;

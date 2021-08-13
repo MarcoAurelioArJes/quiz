@@ -1,20 +1,19 @@
 let questoes = [
     {
-    pergunta: "Por que a galinha atravessou a rua ?",
-    respostas: ["Por que ela quis",
-                "Para chegar ao outro lado",
-                "Só Deus sabe",
-                "Para chegar ao outro lado",
-                "Não sei"],            
-    answer: 1
+        pergunta: "Qual tag HTML substitui a tag < div >",
+        respostas: ["< section >",
+                    "< division >",
+                    "< separate >",
+                    "< arcticle >"],            
+        correta: 0
     },
     {
-        pergunta: "Por que a galinha atravessou a rua ?",
-        respostas: ["Por quis",
+        pergunta: "Quais foram as tags adicionadas no HTML5",
+        respostasM: ["Por quis",
                     "Para c outro lado",
                     "Só D",
                     "Para c outro lado",
                     "Não"],            
-        answer: 1
-    }
-]
+        correta: 1
+    },
+];
